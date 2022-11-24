@@ -10,6 +10,7 @@
         </processorPath>
         <module name="store.shopping-service.main" />
         <module name="store.customer-service.main" />
+        <module name="store.config-service.main" />
         <module name="store.product-service.main" />
       </profile>
     </annotationProcessing>
