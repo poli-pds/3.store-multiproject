@@ -1,6 +1,7 @@
 package co.com.poli.shoppingservice.persistence.entity;
 
 
+import co.com.poli.shoppingservice.model.Product;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -26,6 +27,8 @@ public class InvoiceItem {
     private Double price;
     @Column(name = "product_id")
     private Long productId;
+    @Transient
+    private Product product;
     @Transient
     private Double subTotal;
 
